@@ -26,7 +26,11 @@ server_scripts{
   "modules/basic_gunshop.lua",
   "modules/basic_garage.lua",
   "modules/basic_items.lua",
-  "modules/basic_skinshop.lua"
+  "modules/basic_skinshop.lua",
+  
+  -- Jobs
+  "jobs/mineur/s_patronmineur.lua",
+  "jobs/mineur/s_mineur.lua"
 }
 
 -- client scripts
@@ -41,7 +45,11 @@ client_scripts{
   "client/survival.lua",
   "client/map.lua",
   "client/identity.lua",
-  "client/basic_garage.lua"
+  "client/basic_garage.lua",
+  
+  -- Jobs
+  "jobs/mineur/mineur.lua",
+  "jobs/mineur/patronmineur.lua"
 }
 
 -- client files
